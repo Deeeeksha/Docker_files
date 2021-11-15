@@ -1,0 +1,4 @@
+FROM ubuntu
+LABEL deeksha tripathi <deeksha.tripathi@knoldus.com>
+RUN apt-get update
+CMD ["echo", "Hello...! Good Morning from Knoldus"]
